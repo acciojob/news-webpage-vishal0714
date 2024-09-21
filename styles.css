@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            color: white;
+            background-color: #011e29;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        section {
+            display: flex;
+            padding: 12px;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        section>div {
+            border-radius: 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            flex: 1;
+            text-align: center;
+            padding: 13px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pictorial-news-section{
+            width: 250px;
+            height: 225px;
+        }
+
+    
